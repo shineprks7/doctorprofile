@@ -1,0 +1,251 @@
+
+.screening-title-breadcrumb-wrapper
+{
+    
+}
+
+.screening-title-breadcrumb-wrapper .bread-crumb-link
+{
+    display: inline-block;
+
+   position: relative;
+
+   line-height: 36px;
+
+   vertical-align: middle;
+
+   font-size: 20px;
+
+   cursor: pointer;
+
+
+
+}
+.screening-title-breadcrumb-wrapper .bread-crumb-link::after
+{
+   position: relative;
+    content:'>';
+    font-size: 20px;
+    line-height: 36px;
+
+    vertical-align: middle;
+    padding:0px 8px;
+
+
+    color:#565073;
+
+    display: inline-block;
+}
+
+.screening-title-breadcrumb-wrapper .bread-crumb-active-page
+{
+ display: inline-block;
+
+   position: relative;
+
+   line-height: 36px;
+
+   vertical-align: middle;
+
+   font-size: 20px;
+       color:#565073;
+
+}
+
+
+.mentalhealth-tools-information-section
+{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+.screening-list-grid-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(10px, 1fr)) ;
+
+    gap:24px;
+
+    margin-top: 48px;
+
+}
+
+
+.screening-list-grid-column
+{
+    grid-column: span 6;
+
+    border-radius: 12px;
+
+    box-shadow: -4px -4px 8px 0px rgba(0,0,0,0.15), 0px 4px 0px rgba(0,0,0,1);
+    border: 1px solid #757575;
+
+    overflow: hidden;
+}
+
+.screening-list-grid-column .screening-list-item-box
+{
+
+    padding: 0px;
+
+
+}
+
+.screening-list-grid-column .screening-list-item-heading-bar
+{
+
+    background-color: #05fadd;
+
+    color:#fa0905;
+
+    background-color: #85dd82;
+    color:#3919b6;
+    font-style: italic;
+
+    padding: 24px;
+
+
+}
+
+.screening-list-grid-column .screening-list-item-content-box
+{
+
+    min-height: 240px;
+
+    padding: 24px;
+
+
+
+}
+
+
+
+.screening-list-grid-column .screening-list-item-content-box p
+{
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+
+.screening-list-grid-column .screening-list-item-footer-bar
+{
+
+    background-color: #fff;
+   
+    border-top: 1px solid #757575;
+        padding: 24px;
+
+        text-align: center;
+
+
+
+}
+
+.screening-list-grid-column .screening-list-item-footer-bar .screening-link-button-wrap
+
+{
+
+    background-color: #A9EB4D;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color:#000;
+    display: inline-block;
+
+    padding: 16px 24px;
+
+
+        cursor: pointer;
+
+    
+
+}
+
+
+
+.screening-list-grid-column .screening-list-item-footer-bar .screening-link-button
+
+{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+
+    background-color: inherit;
+
+        position: relative;
+
+    cursor: pointer;
+
+}
+
+
+
+
+.screening-link-button-icon
+{
+    background-color: #000;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.screening-link-button-icon img
+{
+    background-color: #000;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+.screening-list-grid-column .screening-list-item-footer-bar .screening-link-button::hover
+
+{
+    color:#2b2db9;
+
+}
+
+
+
+
+
+
+@media (max-width:1260px)  { 
+
+
+
+
+
+}
+@media (max-width: 1080px) {
+    
+}
+
+@media (max-width:720px)  { 
+
+    
+.screening-list-grid-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(12, minmax(10px, 1fr)) ;
+
+    gap:0px;
+
+}
+
+
+.screening-list-grid-column
+{
+    margin-top: 24px;
+    grid-column: span 12;
+}
+
+
+}

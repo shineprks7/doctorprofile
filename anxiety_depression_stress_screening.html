@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="assets/images/fav_icon_site.png">
 
 
-  <title> ExlaTech | Anxiety, Depression and Stress Screening </title>
+  <title> Mind Care Clinic | Anxiety, Depression and Stress Screening </title>
 
     <meta name ="description" content='This screening tool is based on the DASS-21, a clinically validated set of scales designed to measure the intensity of depression, anxiety, and stress. It evaluates your emotional states over the past week to help identify specific patterns across these three related areas.' />
     
@@ -43,38 +43,31 @@
    <link rel="stylesheet" href="assets/css/transitions.css"/>
    <link rel="stylesheet" href="assets/css/nav.css"/>
  <link rel="stylesheet" href="assets/css/footerwebservices.css"/>
-   <link rel="stylesheet" href="assets/css/index.css"/>
 
+    <link rel="stylesheet" href="assets/css/doctorprofile.css"/>
+
+      <link rel="stylesheet" href="assets/css/doctorprofiletools.css"/>
 
 
 </head>
 <body>
 
-    <header class="nav-bar-wrapper"> 
-      <!-- <span class="site-logo-icon" > <img src="assets/images/logo.png" /> </span> -->
-
-      <a class="site-logo-text" style="margin-left: 24px;" href="index.html"> <img src="assets/images/logo_image.svg"/> </a>
-
-      <div class="spacer"></div>
-      
-      <nav style="display: inline-block;" >  
-        
-        <div class="destop-menu-wrapper">
-            
-          <ul class="desktop-menu" >
-            <li><a class="" href="index.html#hero-section">  Home</a></li>
-            <li><a class="" href="index.html#aboutus-section"> About Us </a></li>
-            <li><a class="" href="index.html#services-section"> Services </a></li>
-
-            <li><a class="" href="contact.html#contact-page-information-section"> Contact Us </a></li>
+    
+    <header>
+      <div class="section-container">
 
 
 
-  
+         <nav class="dprofile-navbar ">
 
-       </div>
+            <a class="dprofile-logo-icon"> <img src="assets/images/dprofile_icons/medical-circle.svg" style="width: 32px;height:32px"/>  </a>
 
-       <div class="mobile-hamburger-button">
+            <a class="dprofile-logo-title"> Mind Care Clinic</a>
+
+            <div class="dprofile-spacer"> </div>
+
+
+             <div class="mobile-hamburger-button">
            <!-- <span class="materials-icon-outlined"> menu </span> -->
 
            <div class="mobile-menu-icon">
@@ -85,18 +78,14 @@
 
        </div>
 
-        
-
-       
-
-       <div class="mobile-menu-wrapper">
+         <div class="mobile-menu-wrapper">
         <ul class="mobile-menu-list"> 
-            <li class="mobile-menu-list-item"> <a class="mobile-menu-link mobile-link-button" href="index.html#hero-section"> Home </a>  </li>
-            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="index.html#aboutus-section"> About Us </a></li>
-            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="index.html#services-section"> Services </a> </li>
+            <li class="mobile-menu-list-item"> <a class="mobile-menu-link mobile-link-button" href="#about-part"> About Doctor </a>  </li>
+            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="#treatment-part"> Treatments </a></li>
+            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="#contact-part"> Contact Information </a> </li>
           
 
-            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="contact.html#contact-page-information-section"> Contact Us </a></li>
+            <li class="mobile-menu-list-item"><a class="mobile-menu-link mobile-link-button" href="#pricing-part"> Pricing </a></li>
 
 
 
@@ -105,10 +94,14 @@
      </div>
 
 
-        
-      
-      </nav>
-    
+
+
+            
+             
+         </nav>
+        </div>
+
+         
     </header>
 
        <section class="company-title-section">
@@ -117,7 +110,7 @@
      </section>
 
     
-     <section class="taxtool-information-section">
+     <section class="mtop-24">
 
         <div class="screening-title-container">
 
@@ -266,91 +259,96 @@
 
        
 
-       <script src="{{ mix('/js/taxtools/businessassessment/businessassessment.js') }}" ></script>
 
 
         </div>
 
 
-         <footer class="footer-section footer-web-services">
+        <footer class="dprofile-footer">
+           
+        <div>
+             <div class="dprofile-footer-grid-wrapper">
+
+                  <h3 class="dprofile-footer-title "> Mind Care Clinic</h3>
+
+                  <div class="dprofile-footer-top-decoration">
+
+                  </div>
+                   <div class="dprofile-footer-grid mtop-24" id="contact-part">
+                          
+                             <div class="dprofile-footer-grid-column">
+
+                                  <h5 class="dprofile-footer-grid-column-title">Address</h5>
+
+                                  <ul class="dprofile-location-info">
+                                     <li> 111, AVC Building,</li>
+                                     <li> Ganapathy,</li>
+
+                                     <li>Coimbatore,</li>
+                                     <li>Tamilnadu.</li>
+
+                                  </ul>
+
+                                  <a class="dprofile-google-map-button" href="https://maps.app.goo.gl/JzPtAh3KSQ5ssAon8" target="_blank" >
+                                     <button>  Open Google Maps </button>
+                                  </a>
+                                 
+                             </div>
+                             <div class="dprofile-footer-grid-column">
+
+                                <h5 class="dprofile-footer-grid-column-title">Consulting Hours</h5>
+
+                                  <ul class="dprofile-location-info">
+                                     <li> 
+                                    <div class="dprofile-consulting-days"> Monday-Friday </div>
+
+                                    <div class="dprofile-consulting-hours"> 9.00 AM - 6.00 PM</div>
+                                     </li>
+                                     <li> 
+
+                                         <div class="dprofile-consulting-days"> Sunday </div>
+
+                                    <div class="dprofile-consulting-hours"> 9.00 AM - 1.00 PM</div>
+                                        
+                                    </li>
+
+                                  </ul>
+
+                                 
+                             </div>
+                             <div class="dprofile-footer-grid-column">
+                                <h5 class="dprofile-footer-grid-column-title">For Booking</h5>
+                                <p class="dprofile-contact-notes mtop-12"> Please Call or Whatsapp for Booking </p>
+
+                                <ul class="dprofile-location-info">
+                                    <li class="footer-contact-info-list  mtop-24"> 
+
+                                             <span style="width: 24px;height: 24px;"> <img src="assets/images/icons/footerphoneicon.svg" /> </span> <span> +91 8072585521 </span>
+
+                                      </li>
+                                   
+                                </ul>
 
 
-        <div class="section-container">
+                                 <h5 class="dprofile-footer-grid-column-title mtop-24">For Other Enquiries</h5>
 
-               <a class="footer-logo-text" style="margin-left: 24px;" href="index.html"> <img src="assets/images/logo_image_light.svg"/> </a>
+                                  <ul class="dprofile-location-info">
+                                   
+                                    <li class="footer-contact-info-list mtop-24"> 
+
+                                           <span style="width: 24px;height: 24px;"> <img src="assets/images/icons/footercontacticon.svg" /> </span> <span> exlatechindia@gmail.com </span>
+
+                                       </li>
+                                </ul>
 
 
-          <div class="footer-row">
-               <div class="footer-column footer-column-menu">
-
-
-                 <div class="mtop-24">
-                   <h4>Quik Links</h4>
-
-                   <li class="footer-menu-item"> <a href="index.html#hero-section"> Home </a></li>
-                   <li class="footer-menu-item"> <a href="index.html#aboutus-section"> About Us </a></li>
-                  
-                    <li class="footer-menu-item" > <a href="index.html#services-section">Services</a></li>
-                    <li class="footer-menu-item" > <a href="contact.html#contact-page-information-section"> Contact Us </a></li>
-
-                   <li class="footer-menu-item" > <a href=""> 
-                     </a></li>
-
+                             </div>
                    </div>
-
-                   
-
-               </div>
-               <div class="footer-column footer-column-menu ">
-
-                  <div class="mtop-24">
-                   <h4>Tools</h4>
-
-                   <li class="footer-menu-item"> <a href="adhdselfscreening.html"> Adult Adhd Self Assessment </a></li>
-                  <li class="footer-menu-item"> <a href="childadhdassessment.html"> Child ADHD Assessment </a></li>
-
-                    <li class="footer-menu-item" > <a href="anxietyselfscreening.html"> Anxiety Self Assessment</a></li>
-                    <li class="footer-menu-item" > <a href="depressionselfscreening.html"> Depression Self Assessment </a></li>
-
-                    <li class="footer-menu-item" > <a href="anxiety_depression_stress_screening.html"> Anxiety, Depression and Stress Screening </a></li>
-
-                    
-
-                   <li class="footer-menu-item" > <a href=""> 
-                     </a></li>
-
-                   </div>
-               </div>
-               <div class="footer-column">
-
-                  <div class="mtop-24 contact-info-card  "> 
-
-                      <h4 class="contact-info-title light-primary-font">Contact Info </h4>
-
-                      <div class="mtop-24">
-                       <li class="footer-contact-info-list"> 
-
-                         <span style="width: 24px;height: 24px;"> <img src="assets/images/icons/footerphoneicon.svg" /> </span> <span> +91 8072585521 </span>
-
-                       </li>
-                       <li class="footer-contact-info-list mtop-24"> 
-
-                        <span style="width: 24px;height: 24px;"> <img src="assets/images/icons/footercontacticon.svg" /> </span> <span> exlatechindia@gmail.com </span>
-
-                       </li>
-                   </div>
+             </div>
+        </div>
 
 
-
-                   </div>
-                
-               </div>
-            </div>
-          </div>
-
-        
-
-      </footer>
+    </footer>
   </body>
 
 
