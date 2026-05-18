@@ -1,0 +1,825 @@
+
+.screening-title-breadcrumb-wrapper
+{
+    
+}
+
+.screening-title-breadcrumb-wrapper .bread-crumb-link
+{
+    display: inline-block;
+
+   position: relative;
+
+   line-height: 36px;
+
+   vertical-align: middle;
+
+   font-size: 20px;
+
+   cursor: pointer;
+
+
+
+}
+.screening-title-breadcrumb-wrapper .bread-crumb-link::after
+{
+   position: relative;
+    content:'>';
+    font-size: 20px;
+    line-height: 36px;
+
+    vertical-align: middle;
+    padding:0px 8px;
+
+
+    color:#565073;
+
+    display: inline-block;
+}
+
+.screening-title-breadcrumb-wrapper .bread-crumb-active-page
+{
+ display: inline-block;
+
+   position: relative;
+
+   line-height: 36px;
+
+   vertical-align: middle;
+
+   font-size: 20px;
+       color:#565073;
+
+}
+
+.faq-section-wrapper
+{
+    max-width: 100%;
+    background-color: #757575;
+    display: grid;
+    grid-template-columns: repeat(12,minmax(10px,1fr));
+    gap:1px;
+    border: 1px solid #757575;
+    padding: 0px;
+
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15), -4px -4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.faq-section
+{
+    grid-column: span 8;
+    background-color: #fff;
+
+    background-color:rgb(241, 241, 144);
+
+    background-color: #6C5073;
+
+    padding: 24px;
+
+}
+.faq-section h3, .faq-section h4, .faq-section h2, .faq-section h5
+
+{
+    color:rgb(241, 241, 144);
+
+}
+.faq-section p
+
+{
+    color:#fff !important;
+
+}
+
+
+
+.faq-section-space
+{
+        grid-column: span 4;
+
+        background-color: #9161e9;
+
+        background-color: #372748;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        
+}
+
+.faq-space-image-wrap
+{
+    width: 120px;
+    height: 120px;
+    position: relative;
+
+}
+
+.faq-space-image-wrap img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.faq-section-wrapper-about-tool
+{
+
+    background-color: #757575;
+    display: grid;
+    grid-template-columns: repeat(12,minmax(10px,1fr));
+    gap:1px;
+    border: 1px solid #757575;
+    padding: 0px;
+
+    width: 800px;
+    max-width: 100%;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: none;
+
+
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.15), -4px -4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.faq-section-about-tool
+{
+    grid-column: span 12;
+    background-color: #fff;
+    padding: 24px;
+
+}
+
+
+.screening-test-profile-image-wrappper img
+{
+ max-width: 100%;
+ height: auto;
+border-radius: 24px;
+
+}
+
+.screening-title-icon-wrap 
+{
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #fff;
+    border: 8px solid #000;
+    outline: 8px solid #fff;
+
+    margin-left: 8px;
+    margin-top: 8px;
+    
+
+}
+
+.screening-title-icon-wrap img
+{
+  width: 96px;
+  height: 96px;
+}
+
+.screening-title-flex-box
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:24px;
+    align-items: center;
+
+}
+
+.screening-title-image-balancer
+{
+           width: 120px;
+        height: 120px;
+        position: absolute;
+        right: -12px;
+        top: 0px;
+        transform: translate(0%, 0%);
+
+        display: none;
+    
+
+}
+
+.screening-title-image-balancer img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.screening-container-sub-section
+{
+
+    position: relative;
+    
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: 0px;
+
+    background-color: #56699d;
+    background-color: #1a2a57;
+
+    background-color: #372748;
+    overflow: hidden;
+}
+
+
+
+.screening-take-test-wrapper
+{
+    background-color: rgb(241, 241, 144);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    min-height: 360px;
+    width: 800px;
+    max-width: 100%;
+    margin-left: 0px;
+    
+}
+
+.screening-take-test-wrapper-inner
+{
+    max-width: auto;
+
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.screening-take-test-timing-information
+{
+    width: 100%;
+
+    max-width: 600px;
+    padding: 24px;
+}
+
+.screening-take-test-btn-wrapper
+{
+    background-color: #000;
+    color:#fff !important;
+    display: flex;
+    justify-content: space-around;
+
+    min-width: 200px;
+    border-radius: 12px;
+    gap:12px;
+    
+    padding: 24px 24px;
+    cursor: pointer;
+}
+.screening-take-test-btn-wrapper:hover
+{
+    color:#c7c6c6 !important;
+}
+.screening-take-test-btn-wrapper:active
+{
+    color:#fff !important;
+}
+.screening-take-test-timing-information
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+    gap:12px;
+    font-style: italic;
+
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.screening-take-test-timing-information .flex-icon
+{
+ 
+  grid-column:span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.screening-take-test-timing-information img
+{
+    width: 32px;
+    height: 32px;
+}
+
+.screening-take-test-timing-information .flex-content
+{
+       grid-column: span 12;
+       justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.screening-take-test-information-wrapper
+{
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(10px, 1fr));
+    gap:12px;
+
+    background-color: lightblue;
+
+      border-radius: 12px;
+    
+    padding: 24px;
+    width: 800px;
+    max-width: 100%;
+    margin-left: 0px;
+
+
+
+
+
+}
+
+
+
+.screening-take-test-information-wrapper .flex-icon
+{
+ 
+  grid-column: span auto;
+
+}
+.screening-take-test-information-wrapper img
+{
+    width: 24px;
+    height: 24px;
+}
+
+.screening-take-test-information-wrapper .flex-content
+{
+       grid-column: span 10;
+
+
+}
+
+
+.screening-test-information-highlights
+{
+   display: grid;
+
+   margin-top: 48px;
+
+   grid-template-columns: repeat(12, minmax(10px, 1fr));
+    gap:24px;
+
+    width: 800px;
+    max-width: 100%;
+
+}
+
+.screening-test-information-highlights-column
+{
+    grid-column: span 6;
+
+    border-radius: 12px;
+
+    padding: 24px;
+
+
+}
+
+.screening-test-information-highlights-column-1
+
+{
+    background-color: #56699d;
+    background-color: #E191F2;
+}
+
+.screening-test-information-highlights-column-2
+
+{
+    background-color: #b2bad1;
+        background-color: #C8C899;
+        background-color: #A191F2;
+
+            color:#fff;
+
+
+}
+
+.screening-test-information-highlights-column-3
+
+{
+    background-color: #6C5073;
+        color:#F2F291;
+
+}
+
+
+.screening-test-information-highlights-column-4
+
+{
+    background-color: #C8C878;
+    color:#565073;
+
+    color: #372748;
+
+}
+
+.screening-test-information-highlights-column-5
+
+{
+    background-color: #565073;
+
+    color:#F2F291;
+}
+
+
+
+
+.screening-test-information-highlights-column .flex-pre
+{
+ 
+  grid-column: span 3;
+
+}
+
+
+.screening-test-information-highlights-column .flex-content
+{
+       grid-column: span 9;
+
+
+}
+
+
+.screening-seperator-section
+{
+        background-image: linear-gradient(to right, #c7c6c6 1px, transparent 1px), linear-gradient(to bottom, #c7c6c6 1px, transparent 1px);
+    background-size: 60px 60px;
+
+    width: 100%;
+    height: 120px;
+
+    background-color: #fff;
+}
+
+
+
+.screening-container-pre-section
+{
+    background-color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+
+.screening-section-pre
+{
+     background-color: #fff;
+}
+
+.screening-title-container
+{
+    background-color: #0C0840;
+    width: 100%;
+
+
+    padding-left: 48px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.screening-title-breadcrumb-wrapper
+{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    
+    box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.15), 4px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color:#0C0840;
+    padding: 24px;
+
+}
+
+
+
+.taxtool-information-section
+{
+    padding-top:120px;
+    padding-bottom: 120px;
+
+    background-color: #56699d;
+ 
+    background-color: #1a2a57;
+
+    background-color: #372748;
+
+
+}
+
+.form-container
+{
+    max-width: 1200px;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 48px;
+
+    border-radius: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    overflow: hidden;
+
+    border: 1px solid #757575;
+
+    z-index: 100;
+    position: relative;
+
+}
+
+.tax-form-options-wrapper
+{
+    max-width: 1000px !important;
+     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.taxform-field-label-quiz
+{
+    max-width: 1000px !important;
+
+}
+
+
+
+.taxform-option-button
+{
+    width: 40% !important;
+}
+
+.taxform-option-button:first-of-type {
+    margin-top: 24px !important;
+}
+
+
+.download-in-progress-text
+{
+
+    display: none;
+
+}
+
+.download-not-in-progress-text
+{
+
+    display: inline-block;
+
+}
+
+.download-in-progress
+{
+    pointer-events: none;
+    cursor:not-allowed;
+
+    
+}
+
+.download-in-progress .download-in-progress-text
+{
+
+    display: inline-block;
+
+}
+
+.download-in-progress .download-not-in-progress-text
+{
+
+    display: none;
+
+}
+
+
+
+
+@media (max-width:1260px)  { 
+
+.form-container
+{
+    width: 90%;
+   
+
+    border-radius: 24px;
+}
+
+.tax-form-options-wrapper
+{
+    max-width: 800px !important;
+}
+.taxform-field-label-quiz
+{
+    max-width: 800px !important;
+
+}
+
+}
+
+@media (max-width:1040px)  { 
+
+.form-container
+{
+    width: 90%;
+    
+}
+.tax-form-options-wrapper
+{
+    max-width: 600px !important;
+}
+.taxform-field-label-quiz
+{
+    max-width: 600px !important;
+
+}
+.taxform-option-button
+{
+    width: 100% !important;
+}
+
+.taxform-option-button:first-of-type {
+    margin-top: 0px !important;
+}
+
+}
+
+@media (max-width:820px)  { 
+
+    .screening-title-container
+
+    {
+
+        padding-left: 24px;
+    }
+
+    
+.screening-take-test-wrapper-inner
+{
+    max-width: 100%;
+
+}
+
+.form-container
+{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 48px;
+
+    border-radius: 24px;
+}
+.tax-form-options-wrapper
+{
+    max-width: 420px !important;
+}
+.taxform-field-label-quiz
+{
+    max-width: 420px !important;
+
+}
+
+.screening-title-image-balancer
+{
+            width: 120px;
+        height:120px;
+        position: absolute;
+        right: -12px;
+        top: 0px;
+        transform: translate(0%, 0%);
+
+                display: none;
+
+    
+
+}
+
+.faq-section
+{
+    grid-column: span 12;
+    background-color: #fff;
+        background-color: rgb(241, 241, 144);
+        background-color: #6C5073;
+
+    padding: 24px;
+
+}
+
+.faq-section-space
+{
+        grid-column: span 12;
+
+        background-color: #9161e9;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        
+}
+
+.faq-space-image-wrap
+{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: none;
+
+}
+
+.faq-space-image-wrap img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.screening-test-information-highlights
+{
+   display: grid;
+
+   margin-top: 48px;
+
+   grid-template-columns: repeat(12, minmax(0px, 1fr));
+    gap:24px;
+
+    width: 800px;
+    max-width: 100%;
+
+}
+
+.screening-test-information-highlights-column
+{
+    grid-column: span 12;
+
+    border-radius: 12px;
+
+    padding: 12px;
+
+
+}
+
+.screening-title-flex-box
+{
+    justify-content: center;
+}
+
+.screening-take-test-timing-information .flex-icon
+{
+ 
+  grid-column:span 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.screening-take-test-wrapper
+{
+    min-height: 360px;
+}
+.screening-take-test-timing-information img
+{
+    width: 32px;
+    height: 32px;
+}
+
+.screening-take-test-timing-information .flex-content
+{
+       grid-column: span 12;
+       justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+
+}

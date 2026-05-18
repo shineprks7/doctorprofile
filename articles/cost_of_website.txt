@@ -1,0 +1,58 @@
+
+1. How much will it cost to own a Website?
+
+     Website cost totally depend on what type of Website you need . There are many types of websites. Few of them are givin below.
+
+
+     1.Business Information/Portfolio Website
+
+     2. Professional Information/ Portfolio Website
+
+     3. Blog and News Website
+
+     4. Online Stores 
+
+     5. Online Listing Websites and Portals 
+
+     
+     How much will it cost to build a Business Information/Portfolio Website?
+
+      
+        Creating a website for Business highly depends on various factors. Factors influencing costs include aesthetics of website, programming language and programming language framework, Content Management Systems,  technology platform, hosting provider, development method, experience and skills of professional who making website for you. 
+        
+        Development methods includes DIY/NO Code Builders, Wordress Websites , Low Code Website Builders ,  Custom  Development, AI Builders. Creating a website in DIY Builders like Wix, Squarespace is few step process. Choosing Template, modify the content and sections using their visual builder, then buying domain and launch Webiste.
+        It is suitable for boutique Business and small services Business. DIY builders like WIX gives you 2000 templates you can choose from and you could launch your business website in really less time than other solutions. Squarespace lets you build beautiful websites. You can accept payments and sell products in Squarespace.  It is not highly configurable compared to Low Code Builders and Wordpress Websites.
+
+        Low Code Builders like  Webflow, Framer has more features compared to  No Code Builders but require some level of design skills and basic technical knowledge.
+
+        You can build highly aesthetic website in Low Code Builders than other Builders. One of the important features of Low Code builders is elegant animations that could impress your website visitors.  It is highly suitable for all kind of business from small to large companies to showcase their business information. Low code builders like other DIY Builders come with their own hosting and in-built Content Management Systems. 
+
+        Wordress on the other hand is world's most popular CMS , most of the business websites, news portals, personal blogs,  online stores running on Wordpress. Wordpress have their numorous plugins and themes. You can purchase a theme and required plugins to build your website. You can buy a theme from online marketplace and buy a Page Builder Plugins like Elementor , DIVA Builder to design  pages from Scratch.
+        All you need is basic tutorial on Wordpress or You can hire a Wordpress Designer to make a website for you. You can also buy elementor compatible themes and change the content and section of page using Elementor Builder.
+        If you want to create Contact Form in Wordpress , You need to get a Form Plugin either Free or Paid Plugins.  For SEO content optimation in Wordpress, You also need to Choose SEO Content Optimization Plugins like Rank Math, DefiniteSEO, Yoast SEO, SEO Press. These SEO Plugins offer free plans, For better optimization of your blog or website ,you need to choose their paid plans.
+        When it comes to hosting Wordpress Website, You need to choose any shared Hosting Provider.
+
+ 
+        Building a Custom Website for you involves hiring designer, developer, choosing hosting provider, and choosing content management system or database ,  programming languages and framework  if it is a dynamic website. Skills of Designer, Developer , country of developer, tech stack of developer affect development cost significantly. 
+
+        Annual Hosting Cost for Custom Brochure Website may cost less than hosting cost of website builders. Custom Webiste gives greater autonomy to the owner of  the website. Development of Static Custom Website would cost lesser than dynamic websites. Dynamic Websites require content management system or database to store web contents and blog content.
+        To Make a simple website, with pages ranging from 1 to 5 and some custom features , it may take a week or 2 weeks time. With Power of AI tools it is possible to minimize development time to some levels.  
+
+
+
+        Before choosing custom development , You need to consider marketing budget of your business including Ad campagins in Google, Facebook and Instagram , Email Marketing, Social Media Marketing and other marketing activities.
+
+        You need to plan your marketing budget carefully before you jump into making a website.  You also need to plan break-even time for your investment in website and How your investment in website shape how you public perceive your brand or business.
+
+        
+
+
+
+
+
+
+
+
+    
+
+        
