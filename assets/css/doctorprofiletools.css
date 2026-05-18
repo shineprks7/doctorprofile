@@ -1,7 +1,7 @@
 
 .screening-title-breadcrumb-wrapper
 {
-    
+    box-shadow: none !important;
 }
 
 .screening-title-breadcrumb-wrapper .bread-crumb-link
@@ -50,6 +50,11 @@
    font-size: 20px;
        color:#565073;
 
+}
+
+.screening-title-container
+{
+    background-color: #7330ca !important;
 }
 
 
