@@ -2,6 +2,8 @@
 .screening-title-breadcrumb-wrapper
 {
     box-shadow: none !important;
+
+    padding-left: 0px;
 }
 
 .screening-title-breadcrumb-wrapper .bread-crumb-link
@@ -17,6 +19,11 @@
    font-size: 20px;
 
    cursor: pointer;
+
+   color: #7330ca;
+
+   font-style: italic;
+   letter-spacing: 0.2px;
 
 
 
@@ -48,14 +55,32 @@
    vertical-align: middle;
 
    font-size: 20px;
-       color:#565073;
+       color:#0b0a0f;
+
+ font-style: italic;
+   letter-spacing: 0.2px;
+
+
 
 }
 
 .screening-title-container
 {
     background-color: #7330ca !important;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
+.screening-seperator-section {
+    background-image: linear-gradient(to right, #a7a6a6 1px, transparent 1px), linear-gradient(to bottom, #a7a6a6 1px, transparent 1px);
+    background-size: 60px 60px;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    border-bottom: 1px solid #a7a6a6 ;
+}
+
 
 
 .mentalhealth-tools-information-section
