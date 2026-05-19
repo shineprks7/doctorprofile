@@ -2333,7 +2333,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
         }]
       }, {
         quizid: 3,
-        title: 'I couldn’t seem to experience any positive feeling at all',
+        title: "I couldn't seem to experience any positive feeling at all",
         answerChosen: null,
         symptomScore: 3,
         options: [{
