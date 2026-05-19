@@ -978,7 +978,7 @@ body
     padding-top: 48px;
     padding-bottom: 48px;
 
-    background-color: #a46eeb;
+    background-color: #8939f1;
 
     border-top-left-radius: 24px;
         border-top-right-radius: 24px;
@@ -991,6 +991,7 @@ body
 .dprofile-footer-title
 {
     text-align: center;
+    color: #f5eaea;
 }
 
 .dprofile-footer-top-decoration
@@ -1030,7 +1031,7 @@ body
 .dprofile-footer-grid-column-title
 {
 
-    color: #340580;
+    color: #c8d563;
 }
 
 .dprofile-contact-notes
@@ -1057,6 +1058,7 @@ body
     list-style: none;
     padding: 0px;
     margin-top: 8px;
+    background-color: #4c5cee;
 
 }
 .dprofile-location-info li
@@ -1064,6 +1066,8 @@ body
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
+  color:#fff;
+  font-weight: 400;
 }
 
 .dprofile-google-map-button
@@ -1071,6 +1075,8 @@ body
     display: inline-block;
     padding: 8px 16px;
     background-color: #119122;
+    background-color: #85dd82;
+
     color:#fff;
 }
 
@@ -1079,7 +1085,7 @@ body
   outline: 0px;
   border:0px;
   background:inherit;
-  color: #fff;
+  color: #000;
   font-size: 18px;
   line-height: 24px;
 }
