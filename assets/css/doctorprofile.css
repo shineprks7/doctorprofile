@@ -82,6 +82,64 @@ body
   min-height: 400px;
 }
 
+.dprofile-hero-card-grid-column-bottom-left
+{
+      background-color: rgb(121, 221, 82);
+
+      background-color: #D3D3D3;
+
+      display: flex;
+      justify-content: center;
+  
+}
+.dprofile-hero-card-grid-column-bottom-right
+{
+    background-color: rgb(121, 221, 82);
+          background-color: #D3D3D3;
+
+          display: none;
+
+}
+
+
+.dprofile-hero-contact-us-button-wrap
+{
+    padding: 12px 24px;
+
+    width: 240px;
+    border: 2px solid #491AC9;
+
+    border-radius: 12px;
+
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    
+}
+
+.dprofile-hero-contact-us-button-wrap:hover
+
+{
+    color:#491AC9;
+
+
+}
+
+.dprofile-hero-contact-us-button button
+{
+  border: 0px;
+  background-color: inherit;
+  color:inherit;
+  outline:0px;
+
+  font-size: 18px;
+   line-height: 27px;
+
+}
+
 
 
 .dprofile-navbar
@@ -157,7 +215,7 @@ body
 .dprofile-hero-card-grid
 {
     display: grid;
-    gap:24px;
+    gap:0px;
     grid-template-columns: repeat(12, minmax(10px, 1fr));
 }
 
