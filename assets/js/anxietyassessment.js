@@ -22365,7 +22365,7 @@ var staticRenderFns = [
           _c("tr", [
             _c("th", [
               _vm._v(
-                "\r\n                                \r\n                              ExlaTech\r\n\r\n                           "
+                "\r\n                                \r\n                              Mind Care Clinic\r\n\r\n                           "
               ),
             ]),
           ]),
