@@ -64,6 +64,22 @@
 
 }
 
+.screening-take-test-btn-wrapper {
+    background-color: #000;
+    color: #fff !important;
+    justify-content: center;
+    min-width: 200px;
+    max-width: 80%;
+    border-radius: 12px;
+    gap: 12px;
+    padding: 8px 8px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+}
+
+
+
 .screening-title-container
 {
     background-color: #7330ca !important;
